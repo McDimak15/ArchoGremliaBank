@@ -1,6 +1,3 @@
-body {
-	background-color: #000000;
-}
 .start {
 	color: #ffffff;
 }
@@ -22,6 +19,10 @@ a {
 }
 .CheckYourBalance {
 	color: #ffffff;
+}
+.output {
+	color: #ffffff;
+	width: 200px;
 }
 
 @media screen and (max-width: 900px) {
