@@ -36,12 +36,17 @@ a {
 }
 .output {
 	color: #ffffff;
-	width: 200px;
+	width: 300px;
+	top: 30px;
+	height: 30px;
 	border-radius: 10px;
-	font: italic 1.2em "Fira Sans", serif;
+	font: italic 1.2 em "Fira Sans", serif;
 }
 .login {
 	border-radius: 10px;
+	height: 30px;
+	border-radius: 10px;
+	font: italic 1.2 em "Fira Sans", serif;
 }
 .checking {
 	border-radius: 10px;
