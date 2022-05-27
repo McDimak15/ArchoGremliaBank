@@ -1,21 +1,35 @@
 body {
 	background-color: #000000;
+	width: 1000px
+}
+.check {
+	font-size: 150%;
+	position: relative;
+	top: 20px;
+	right: -360px;
 }
 .start {
 	color: #666666;
 	background-color: #d6d6d6;
 	border: 3px solid #4a4a4a;
+	font-style: Monaco;
+	font: italic 1.2em "Fira Sans", serif;
 	font-size: 20px;
-	padding-left: 5px;
-	border-radius: 5px;
+	border-radius: 1px;
 	width: 40%;
 	text-align: center;
+	position: relative;
+	top: 20px;
+	right: -500px;
+	padding: 100px;
 }
-
 a {
 	color: #5865f1;
 	font-size: 32px;
 	text-align: center;
+	position: relative;
+	top: 20px;
+	right: -710px;
 }
 .CheckYourBalance {
 	color: #ffffff;
@@ -24,13 +38,14 @@ a {
 	color: #ffffff;
 	width: 200px;
 	border-radius: 10px;
+	font: italic 1.2em "Fira Sans", serif;
 }
 .login {
 	border-radius: 10px;
 }
 .checking {
 	border-radius: 10px;
-	
+	font: italic 1.2em "Fira Sans", serif;
 }
 @media screen and (max-width: 900px) {
 	a {
@@ -63,4 +78,3 @@ a {
 	border-radius: 10px;
 	}
 	}
-	
