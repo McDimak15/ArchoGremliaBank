@@ -2,38 +2,6 @@ body {
 	background-color: #000000;
 }
 .start {
-	color: #ffffff;
-}
-
-a {
-	color: #5865f1;
-	font-size: 32px;
-}
-
-.message {
-	color: #666666;
-	background-color: #d6d6d6;
-	border: 3px solid #4a4a4a;
-	font-size: 20px;
-	padding-left: 5px;
-	border-radius: 5px;
-	width: 25%;
-	text-align: center;
-}
-.CheckYourBalance {
-	color: #ffffff;
-}
-.output {
-	color: #ffffff;
-	width: 200px;
-}
-
-@media screen and (max-width: 900px) {
-	a {
-	color: #5865f1;
-	font-size: 64px;
-	}
-	.message {
 	color: #666666;
 	background-color: #d6d6d6;
 	border: 3px solid #4a4a4a;
@@ -42,11 +10,57 @@ a {
 	border-radius: 5px;
 	width: 40%;
 	text-align: center;
+}
+
+a {
+	color: #5865f1;
+	font-size: 32px;
+	text-align: center;
+}
+.CheckYourBalance {
+	color: #ffffff;
+}
+.output {
+	color: #ffffff;
+	width: 200px;
+	border-radius: 10px;
+}
+.login {
+	border-radius: 10px;
+}
+.checking {
+	border-radius: 10px;
+	
+}
+@media screen and (max-width: 900px) {
+	a {
+	color: #5865f1;
+	font-size: 64px;
 	}
 	.check {
 	font-size: 150%;
 	}
 	.start {
-	font-size: 150%;
+	color: #666666;
+	background-color: #d6d6d6;
+	border: 3px solid #4a4a4a;
+	font-size: 15px;
+	padding-left: 5px;
+	border-radius: 5px;
+	width: 70%;
+	text-align: center;
 	}
-}
+	.output {
+	color: #ffffff;
+	width: 200px;
+	border-radius: 10px;
+	}
+	.login {
+	border-radius: 10px;
+	}
+	.checking {
+	width: 150px;
+	border-radius: 10px;
+	}
+	}
+	
