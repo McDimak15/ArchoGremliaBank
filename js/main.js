@@ -3,10 +3,10 @@ function getInfo() {
 	var password = document.getElementById("password").value
 	var currencyoutput = document.getElementById("CurrencyOutput")
 	if(username == "Dima" && password == "D01") {
-		currencyoutput.value = "Твій баланс: банк архо-гремлії"
+		currencyoutput.value = "Твій баланс: 230 ортоків"
 	}
 	if(username == "Artem" && password == "A01") {
-			currencyoutput.value = "Твій баланс: банк архо-гремлії"
+			currencyoutput.value = "Твій баланс: 230 ортоків"
 	}
 	if(username == "Maks" && password == "M02") {
 			currencyoutput.value = "Твій баланс: 10 ортоків"
