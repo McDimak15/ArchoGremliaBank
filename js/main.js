@@ -20,4 +20,7 @@ function getInfo() {
 	if(username == "Zahar" && password == "Z03") {
 			currencyoutput.value = "Твій баланс: 10 ортоків"
 	}
+	if(username == "Admin" && password == "User1203") {
+			currencyoutput.value = "Грн: 1001"
+	}
 }
