@@ -4,22 +4,29 @@
 		<meta charset="UTF-8"/>
 		<title>National bank of archo-gremlia</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
+	<button class="OpenTab" onclick="OpenMenu()"><img class="MenuImg" src="css/images/Menu.png">Menu</button>
+	<div class="menu" id="menu">
+	<button class="BankMenu" id="Menu" onclick="OpenBank()"><h2><img class="BankImg" src="css/images/Bank.png">Bank</h2></button><br>
+	<button class="PassportMenu" id="Menu" onclick="OpenPassport()"><h2><img class="PassportImg" src="css/images/passport.png">Passport</h2></button><br>
+	</div>
 	<div class="start">
-		<h1 class="p1">National bank of archo-gremlia</h1>
-		<h2>Валюта: Орток</h2>
-		<h2>Ортоків в обігу: 270</h2>
-		<h2>Період податків: кожного першого числа кожного місяця</h2>
-		<h2 class="CheckYourBalance">Перевірити свій баланс:</h2>
+		<h1 class="p1" id="NA">National bank of archo-gremlia</h1>
+		<h2 id="NB">Валюта: Орток</h2>
+		<h2	id="NC">Ортоків в обігу: 270</h2>
+		<h2 id="ND">Період податків: кожного першого числа кожного місяця</h2>
+		<h2 id="NE" class="CheckYourBalance">Перевірити свій баланс:</h2>
 	</div>
 	<div class="check">
 		<input id="name" class="checking" placeholder="Твоє ім'я">
-		<input id="password" class="checking"  placeholder="Твій пароль">
-		<button type="button" class="login" onclick="getInfo()">login</button>
+		<input id="password" class="checking"  placeholder="Твій пароль банка">
+		<button type="button" class="login" onclick="getInfo()"><img class="loginImg" src="css/images/Login.png"></button>
 		<input type="text" class="output" id="CurrencyOutput" disabled style value="">
 		<script src="js/main.js"></script>
 	</div>
+	<img id="imgPass" class="PassImg"src="css/images/Dima.png"></img>
 		<a href="https://discord.gg/2CWbFX7F">Наш Діскорд!</a>
 	</body>
 </html>
