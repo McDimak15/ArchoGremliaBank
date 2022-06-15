@@ -1,0 +1,195 @@
+body {
+	background-color: #000000;
+	width: 1000px
+}
+.menu {
+	position: relative;
+	background-color: #ffffff;
+	border: 3px solid #4a4a4a;
+	border-radius: 1px;
+	width: 50%;
+	padding: 5px;
+	text-align: top-left;
+	font-style: Monaco;
+	font: italic 2em "Fira Sans", serif;
+}
+.PassportMenu {
+	width: 130px;
+	height: 50px;
+	border-radius: 10px;
+	color: #4a4a4a;
+	text-align: right;
+}
+.BankMenu {
+	width: 90px;
+	height: 50px;
+	border-radius: 10px;
+	color: #4a4a4a;
+	text-align: right;
+}
+.check {
+	font-size: 150%;
+	position: relative;
+	top: 20px;
+	right: -360px;
+}
+.start {
+	color: #666666;
+	background-color: #d6d6d6;
+	border: 3px solid #4a4a4a;
+	font-style: Monaco;
+	font: italic 1.2em "Fira Sans", serif;
+	font-size: 20px;
+	border-radius: 1px;
+	width: 40%;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	right: -500px;
+	padding: 100px;
+}
+a {
+	color: #5865f1;
+	font-size: 32px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	right: -710px;
+}
+.CheckYourBalance {
+	color: #ffffff;
+}
+.output {
+	color: #ffffff;
+	width: 300px;
+	top: 30px;
+	height: 30px;
+	border-radius: 10px;
+	font: italic 1.2 em "Fira Sans", serif;
+}
+.login {
+	border-radius: 10px;
+	height: 50px;
+	border-radius: 10px;
+	font: italic 1.2 em "Fira Sans", serif;
+}
+.checking {
+	border-radius: 10px;
+	font: italic 1.2em "Fira Sans", serif;
+}
+.OpenTab {
+	border-radius: 10px;
+	width: 124px;
+	height: 50px;
+	font-size: 28px;
+	text-align: right;
+}
+.PassImg {
+	position: relative;
+	right: -400px;
+	top: 25px;
+}
+.MenuImg {
+	position: relative;
+	right: 10px;
+	top: 3px;
+}
+@media(max-width: 700px){
+.start {
+	width: 60%;
+	right: -100px;
+	font: italic 1.2em "Fira Sans", serif;
+	font-size: 30px;
+}
+.checking {
+	border-radius: 10px;
+	font: italic 1.2em "Fira Sans", serif;
+	top: 60px;
+}
+.check {
+	font-size: 250%;
+	position: relative;
+	top: 20px;
+	right: -100px;
+}
+.login {
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+	font-size: 100%;
+	border-radius: 10px;
+	font: italic 1.2 em "Fira Sans", serif;
+	position: relative;
+	top: -55px;
+	right: -50px;
+}
+.output {
+	color: #ffffff;
+	width: 800px;
+	height: 100px;
+	border-radius: 10px;
+	font: italic 1.2 em "Fira Sans", serif;
+	position: relative;
+	top: 5px;
+	font-size: 100%;
+}
+a {
+	color: #5865f1;
+	font-size: 64px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	right: -340px;
+}
+.menu {
+	width: 60%;
+	font: italic 1.2em "Fira Sans", serif;
+	font-size: 30px;	 
+}
+.PassportMenu {
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+	color: #4a4a4a;
+	font-size: 20px;
+}
+.BankMenu {
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+	color: #4a4a4a;
+	font-size: 26px;
+}
+.BankImg {
+	width: 50px;
+	position: relative;
+	right: 30px;
+}
+.PassportImg {
+	width: 50px;
+	position: relative;
+	right: 10px;
+	
+}
+.PassImg {
+	width: 1000px;
+	height: 800px;
+}
+.MenuImg {
+	width:40px;
+	position: relative;
+	right: 60px;
+}
+.OpenTab {
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	font-size: 32px;
+	text-align: right;
+}
+.loginImg {
+	position: relative;
+	height: 100px;
+	width: 100px;
+}
+	}
