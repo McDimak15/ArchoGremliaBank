@@ -43,7 +43,7 @@ function getInfo() {
 	passport.style.visibility = "visible"
 	passport.src = "css/images/Maks.png"
 	}
-	if(username == "29481981" && password == "David1933" && tlo == 2) {
+	if(username == "294811981" && password == "David1933" && tlo == 2) {
 	passport.style.visibility = "visible"
 	passport.src = "css/images/David.png"
 	}
